@@ -18,7 +18,7 @@
 
 namespace Gadgetron{
 
-class EXPORTGADGETBASE GadgetStreamController 
+class EXPORTGADGETBASE GadgetStreamController
   : public ACE_Svc_Handler<ACE_SOCK_STREAM, ACE_MT_SYNCH>
   , public GadgetStreamInterface
 {
@@ -26,7 +26,7 @@ public:
   GadgetStreamController();
 
   virtual ~GadgetStreamController()
-    { 
+    {
     }
 
   int open (void);
