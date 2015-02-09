@@ -70,6 +70,7 @@ set( gadgetron_mricore_header_files GadgetMRIHeaders.h
                                     AutoScaleGadget.h 
                                     FlowPhaseSubtractionGadget.h 
                                     GadgetIsmrmrdReadWrite.h 
+                                    IsmrmrdMessages.h 
                                     PhysioInterpolationGadget.h 
                                     IsmrmrdDumpGadget.h 
                                     AsymmetricEchoAdjustROGadget.h 
@@ -100,6 +101,7 @@ set( gadgetron_mricore_src_files AcquisitionPassthroughGadget.cpp
                                 AutoScaleGadget.cpp
                                 FlowPhaseSubtractionGadget.cpp
                                 GadgetIsmrmrdReadWrite.cpp
+                                IsmrmrdMessages.cpp
                                 PhysioInterpolationGadget.cpp
                                 IsmrmrdDumpGadget.cpp
                                 AsymmetricEchoAdjustROGadget.cpp

@@ -1,0 +1,18 @@
+#include "IsmrmrdMessages.h"
+
+namespace Gadgetron
+{
+
+GADGETRON_READER_FACTORY_DECLARE(IsmrmrdAcquisitionMessageReader)
+
+GADGETRON_READER_FACTORY_DECLARE(IsmrmrdImageMessageReaderCPLX)
+GADGETRON_READER_FACTORY_DECLARE(IsmrmrdImageMessageReaderFLOAT)
+GADGETRON_READER_FACTORY_DECLARE(IsmrmrdImageMessageReaderUSHORT)
+
+GADGETRON_WRITER_FACTORY_DECLARE(IsmrmrdAcquisitionMessageWriter)
+
+GADGETRON_WRITER_FACTORY_DECLARE(IsmrmrdImageMessageWriterCPLX)
+GADGETRON_WRITER_FACTORY_DECLARE(IsmrmrdImageMessageWriterFLOAT)
+GADGETRON_WRITER_FACTORY_DECLARE(IsmrmrdImageMessageWriterUSHORT)
+
+}
