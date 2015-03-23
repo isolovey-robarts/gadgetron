@@ -9,6 +9,7 @@ include_directories(
   ${CMAKE_SOURCE_DIR}/toolboxes/core/cpu/hostutils
   ${CMAKE_SOURCE_DIR}/toolboxes/core/cpu/image
   ${CMAKE_SOURCE_DIR}/toolboxes/core/cpu/algorithm
+  ${CMAKE_SOURCE_DIR}/network/gadgetron/messages
   ${Boost_INCLUDE_DIR}
   ${ACE_INCLUDE_DIR}
   )
@@ -70,6 +71,7 @@ target_link_libraries(gadgetron_gadgetbase
   optimized ${ACE_LIBRARIES} debug ${ACE_DEBUG_LIBRARY}
   gadgetron_toolbox_gadgettools
   gadgetron_toolbox_log
+  cfmm_messages
 )
 
 set_target_properties(gadgetron_gadgetbase PROPERTIES VERSION ${GADGETRON_VERSION_STRING} SOVERSION ${GADGETRON_SOVERSION})
